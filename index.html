@@ -11,10 +11,18 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header section">
+      <div class="container">
       <nav class="header-navigation">
         <a class="header-logo-web link" href="./index.html"
           >Web<span class="header-logo-studio">Studio</span></a
@@ -49,13 +57,17 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero section">
+        <div class="container hero-container">
         <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
         <button type="button" class="hero-btn">Order Service</button>
+        </div>
       </section>
-      <section class="description">
+      <section class="description section">
+        <div class="container description-container">
         <h2 class="hidden" hidden>Description</h2>
         <ul class="description-list list">
           <li class="description-item">
@@ -87,8 +99,10 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="work">
+      <section class="work section">
+        <div class="container work-container">
         <h2 class="work-title">What are we doing</h2>
         <ul class="work-list list">
           <li class="work-item">
@@ -118,6 +132,7 @@
         </ul>
       </section>
       <section class="team">
+       <div class="container team-container"> 
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
@@ -161,6 +176,7 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">

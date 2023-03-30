@@ -7,6 +7,30 @@
   --color-cloud: #f4f4fd;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.img {
+  display: block;
+}
+
+.section {
+  padding-top: 120 px;
+  padding-bottom: 120px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--color-body);
@@ -25,11 +49,19 @@ body {
   list-style: none;
   text-decoration: none;
 }
+
+.container{
+  width: 1128 px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
 /*-----Header-----*/
 
 .header {
   background-color: var(--color-body);
   color: var(--color-address);
+  padding-top: 24px;
 }
 
 .header-navigation {
@@ -131,9 +163,7 @@ body {
   background-color: var(--color-hover);
 }
 
-*-----Description-----*/ 
-
-.description {
+*-----Description-----*/ .description {
 }
 
 .hidden {
