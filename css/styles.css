@@ -65,6 +65,9 @@ body {
 }
 
 .header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 
 .header-logo-web {
@@ -84,11 +87,21 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-footer);
+  margin-right: 76px;
 }
 
 .header-navigation-item {
+  margin-right: 40px;
 }
 
+.header-navigation-list {
+  display: flex;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
 .header-mail {
   font-size: 16px;
   line-height: 1.5;
@@ -117,6 +130,13 @@ body {
 
 .header-address {
   font-style: normal;
+  }
+.header-address-list{
+  display: flex;
+}
+
+.header-address-item{
+  margin-right: 40px;
 }
 
 .header-address-list link {
@@ -147,6 +167,8 @@ body {
 }
 
 .hero-btn {
+  min-width: 169px;
+  height: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -155,6 +177,10 @@ body {
   color: var(--color-body);
   background-color: var(--color-button);
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  flex-direction: row;
+  padding: 16px 32px;
 }
 
 .hero-btn:hover,
