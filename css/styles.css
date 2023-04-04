@@ -27,15 +27,14 @@ ul {
 }
 
 .section {
-  padding-top: 120 px;
-  padding-bottom: 120px;
+  padding: 120 px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--color-body);
   color: var(--color-address);
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .list {
@@ -51,7 +50,7 @@ body {
   text-decoration: none;
 }
 
-.container{
+.container {
   width: 1128 px;
   padding-left: 15px;
   padding-right: 15px;
@@ -67,9 +66,9 @@ body {
 }
 
 .header-navigation {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .header-logo-web {
@@ -100,7 +99,7 @@ body {
   display: flex;
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -132,12 +131,12 @@ body {
 
 .header-address {
   font-style: normal;
-  }
-.header-address-list{
+}
+.header-address-list {
   display: flex;
 }
 
-.header-address-item{
+.header-address-item {
   margin-right: 40px;
 }
 
@@ -188,7 +187,7 @@ body {
   flex-direction: row;
   padding: 16px 32px;
   align-items: center;
- margin: 0 auto;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -197,11 +196,14 @@ body {
   background-color: var(--color-hover);
 }
 
-/*-----Description-----*/ 
+/*-----Description-----*/
 
 .description {
   display: flex;
- 
+}
+
+.description-container {
+  padding: 32px 16px;
 }
 
 .hidden {
@@ -216,7 +218,7 @@ body {
 }
 
 .description-item {
-  width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
 }
 
 .description-title {
@@ -225,7 +227,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-footer);
-   margin-top: 120px;
+  margin-top: 120px;
 }
 
 .description-text {
@@ -251,10 +253,11 @@ body {
   text-transform: capitalize;
   color: var(--color-footer);
   margin-bottom: 72px;
+  margin-top: 120px;
 }
 .work-list {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .work-item {
@@ -267,7 +270,7 @@ body {
   background-color: var(--color-cloud);
 }
 
-.team-list{
+.team-list {
   display: flex;
   gap: 24px;
   width: calc((100% - 72px) / 4);
@@ -281,8 +284,8 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-footer);
-  margin-bottom: 72px;
   margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-title-name {
@@ -292,11 +295,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-footer);
-   }
+}
+
+.team-title-person {
+  align-items: center;
+  text-align: center;
+}
 
 .team-item {
   background-color: #fff;
- }
+}
 
 .team-text {
   font-weight: 400;
@@ -315,7 +323,7 @@ body {
   display: flex;
 }
 
-.footer-container{
+.footer-container {
   width: 1440px;
   height: 312px;
   padding: 100px;
@@ -329,7 +337,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-button);
- }
+}
 
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -351,7 +359,7 @@ body {
   color: var(--color-cloud);
   width: 264px;
   margin-top: 18px;
- }
+}
 
 .list {
   list-style: none;
@@ -372,27 +380,33 @@ body {
 }
 
 .button-portfolio {
-display: flex;
-padding: 12px 24px;
-gap: 24px;
-
+  display: flex;
+  flex-direction: row;
+  padding: 12px 24px;
+  gap: 24px;
 }
 
 .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-button);
+  border-radius: 4px;
+  padding: 12px 24 px;
 }
 
 .button-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 48px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .list {
@@ -420,10 +434,10 @@ gap: 24px;
 .link {
 }
 
-.gallery-border{
-margin-top: 32px;
-border: 1px solid  #E7E9FC;
-border-top: none;
+.gallery-border {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .gallery-link {
@@ -433,15 +447,12 @@ border-top: none;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  
 }
 
 .gallery-item {
   width: calc((100% - 48px) / 3);
-  border-bottom: 1px solid #E7E9FC;
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
-
+  max-width: 100%;
+  height: auto;
 }
 
 .gallery-title {
