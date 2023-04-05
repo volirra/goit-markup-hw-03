@@ -62,6 +62,7 @@ body {
   background-color: var(--color-body);
   color: var(--color-address);
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
