@@ -38,7 +38,6 @@ body {
 }
 
 .list {
-  list-style: none;
 }
 
 .link {
@@ -51,7 +50,7 @@ body {
 }
 
 .container {
-  width: 1128 px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -203,7 +202,6 @@ body {
 }
 
 .description-container {
-  padding: 32px 16px;
 }
 
 .hidden {
@@ -215,6 +213,8 @@ body {
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .description-item {
@@ -227,7 +227,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-footer);
-  margin-top: 120px;
 }
 
 .description-text {
@@ -252,8 +251,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-footer);
-  margin-bottom: 72px;
-  margin-top: 120px;
+  padding-bottom: 72px;
+  padding-top: 120px;
 }
 .work-list {
   display: flex;
@@ -268,12 +267,13 @@ body {
 
 .team {
   background-color: var(--color-cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
@@ -284,8 +284,8 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-footer);
-  margin-top: 120px;
-  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-title-name {
@@ -305,6 +305,7 @@ body {
 
 .team-item {
   background-color: #fff;
+   width: calc((100% - 72px) / 4);
 }
 
 .team-text {
@@ -325,9 +326,8 @@ body {
 }
 
 .footer-container {
-  width: 1440px;
-  height: 312px;
-  padding: 100px;
+  padding-top: 140px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-web {
@@ -383,7 +383,6 @@ body {
 .button-portfolio {
   display: flex;
   flex-direction: row;
-  padding: 12px 24px;
   gap: 24px;
 }
 
