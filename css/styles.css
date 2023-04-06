@@ -157,7 +157,8 @@ body {
   text-decoration: none;
   background: var(--color-footer);
   text-align: center;
-  padding: 188px 292px;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .hero-title {
@@ -252,8 +253,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-footer);
-  padding-bottom: 72px;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .work-list {
   display: flex;
@@ -296,12 +296,13 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-footer);
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-title-person {
   align-items: center;
   text-align: center;
-  margin-bottom: 120px;
 }
 
 .team-item {
@@ -316,6 +317,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-address);
   align-items: center;
+  margin-bottom: 32px;
 }
 
 /*-----Footer-----*/
@@ -379,11 +381,12 @@ body {
 .gallery {
   background: var(--color-body);
   display: flex;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .button-portfolio {
-  display: flex;
-  flex-direction: row;
+ flex-direction: row;
   gap: 24px;
 }
 
@@ -397,7 +400,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-button);
   border-radius: 4px;
-  padding: 12px 24 px;
+  padding: 12px 24px;
 }
 
 .button-list {
@@ -405,8 +408,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 48px;
-  padding-top: 96px;
+  gap: 24px;
   padding-bottom: 72px;
 }
 
