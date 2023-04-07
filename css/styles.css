@@ -63,6 +63,7 @@ body {
   color: var(--color-address);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 24px;
 }
 
 .header-navigation {
@@ -158,8 +159,8 @@ body {
   background: var(--color-footer);
   text-align: center;
   padding-top: 188px;
-  padding-bottom: 292px;
-}
+  padding-bottom: 188px;
+ }
 
 .hero-title {
   font-weight: 700;
@@ -201,9 +202,8 @@ body {
 
 .description {
   display: flex;
-}
-
-.description-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hidden {
@@ -215,8 +215,6 @@ body {
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .description-item {
@@ -243,6 +241,8 @@ body {
 
 .work {
   background: var(--color-section);
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .work-title {
@@ -272,6 +272,10 @@ body {
   padding-bottom: 120px;
 }
 
+.team-container{
+  padding-top: 120px;
+  padding-bottom: 120px;  
+}
 .team-list {
   display: flex;
   gap: 24px;
@@ -285,8 +289,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-footer);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-title-name {
@@ -296,13 +299,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-footer);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
 .team-title-person {
   align-items: center;
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-item {
@@ -317,7 +321,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-address);
   align-items: center;
-  margin-bottom: 32px;
 }
 
 /*-----Footer-----*/
@@ -326,11 +329,11 @@ body {
   background: var(--color-footer);
   color: var(--color-cloud);
   display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
-  padding-top: 140px;
-  padding-bottom: 100px;
 }
 
 .footer-logo-web {
